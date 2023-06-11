@@ -2,19 +2,31 @@ html{
 	background-color:2d6e41;
 }
 
-#mainContainer{
+.mainContainer{
 	display:grid;
 	grid-template-columns:repeat(2,1fr);
-	grid-template-columns:repeat(2,1fr);
+	grid-template-rows:repeat(3,1fr);
 	justify-content:center;
 	align-items:center;
 	text-align:center;
 	color:white;
-	padding:3%;
-	column-gap:10%;
+	grid-gap:50px;
+	margin:5%;
+}
+
+.backButton{
+	grid-row-start:3;
+	padding:20px;
+	border-radius:50%;
+	margin-left:10%;
+	margin-right:80%;
+	background:none;
+	color:white;
+	font-size:90%;
 }
 
 #oncaTitle{
+	grid-column-start:1;
 	grid-row-start:1;
 }
 
@@ -26,5 +38,80 @@ html{
 
 #oncaImg{
 	grid-column-start:2;
+	grid-row-start:2;
+}
+
+#araraTitle{
+	grid-row-start:1;
+}
+
+#araraText{
+	text-align:justify;
+	grid-column-start:2;
+	grid-row-start:2;
+}
+
+#araraImg{
+	grid-column-start:1;
+	grid-row-start:2;
+}
+
+#ariranhaTitle{
+	grid-row-start:1;
+}
+
+#ariranhaText{
+	text-align:justify;
+	grid-column-start:2;
+	grid-row-start:2;
+}
+
+#ariranhaImg{
+	grid-column-start:2;
+	grid-row-start:1;
+}
+
+#cachorroTitle{
+	grid-row-start:1;
+}
+
+#cachorroText{
+	text-align:justify;
+	grid-column-start:2;
+	grid-row-start:2;
+}
+
+#cachorroImg{
+	grid-column-start:1;
+	grid-row-start:2;
+}
+
+#tartarugaTitle{
+	grid-row-start:1;
+}
+
+#tartarugaText{
+	text-align:justify;
+	grid-column-start:2;
+	grid-row-start:2;
+}
+
+#tartarugaImg{
+	grid-column-start:1;
+	grid-row-start:2;
+}
+
+#botoTitle{
+	grid-column-start:2;
+}
+
+#botoText{
+	text-align:justify;
+	grid-column-start:2;
+	grid-row-start:2;
+}
+
+#botoImg{
+	grid-column-start:1;
 	grid-row-start:2;
 }
